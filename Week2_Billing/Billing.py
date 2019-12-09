@@ -5,13 +5,17 @@
 ####################################################################################################
 
 greeting_message = "Welcome to Installation Cost Calculation."  # initializing greeting message
+cost_per_feet = 0.87  # initializing cost per feet
+
 company_name = input("Enter the name of your company: ")  # Getting company name from user
 desired_length = float(
     input("Enter desired length of fiber optic cable (in feet): "))  # Getting length from user and converting input to float
-cost_per_feet = 0.87  # initializing cost per feet
+
 
 total_cost = desired_length * cost_per_feet  # Total cost calculation
 
+
+# Generating  receipt for the customer
 
 print("\n\n########################################################\n\n"
       " ********* Installation Receipt for {} *********\n\n"
