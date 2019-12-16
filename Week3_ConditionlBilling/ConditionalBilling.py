@@ -7,8 +7,8 @@
 # Applies bulk discount.
 ####################################################################################################
 
-greeting_message = "Welcome to Installation Cost Calculation."  # initializing greeting message
-discount_message = "" # initializing discount message
+print("Welcome to Fiber Optic Installation Cost Calculation.\n")  # Greeting Message
+discount_message = ""  # initializing discount message
 
 company_name = input("Enter the name of your company: ")  # Getting company name from user
 desired_length = float(
@@ -33,7 +33,7 @@ installation_cost = desired_length * rate_per_feet
 
 # Setting discount message for bulk discount
 if desired_length > 100:
-    discount_message = '(Applies Bulk Discount)'
+    discount_message = '(Bulk Discount Applied)'
 
 # Generating  receipt for the customer
 
